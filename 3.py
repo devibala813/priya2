@@ -1,2 +1,2 @@
 w1=input()
-print(w1[::1])
+print(w1[::-1])
