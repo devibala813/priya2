@@ -1,6 +1,3 @@
-dvi=map(int,list(input()))
-pri=0
-for i in dvi:
-   n1=i*i
-   pri=pri+n1
-print(pri)
+n1=input()
+hh=[int(i)**2 for i in n1]
+print(sum(hh))
