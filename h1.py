@@ -1,5 +1,5 @@
 num1=int(input())
-l1=list(map(int,input().split()[:num]))
+l1=list(map(int,input().split()[:num1]))
 c=0
 fp=[]
 for i in range(0,num+1):
